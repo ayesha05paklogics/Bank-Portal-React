@@ -14,18 +14,18 @@ function Sidebar({
   const navigate = useNavigate();
 
   return (
-    <aside className="hidden w-64 shrink-0 border-r border-[#d9e8f5] bg-white lg:block">
+    <aside className="hidden w-64 shrink-0 border-r border-[#cfe8f7] bg-[#eaf6ff] lg:block">
       <div className="sticky top-0 flex h-screen flex-col">
 
         {/* Logo */}
-        <div className="border-b border-[#d9e8f5] px-6 py-6">
+        <div className="border-b border-[#cfe8f7] px-6 py-6">
           <h2 className="text-xl font-bold text-[#195fd7]">
             Banking Portal
           </h2>
         </div>
 
         {/* Profile */}
-        <section className="border-b border-[#d9e8f5] px-6 py-6 text-center">
+        <section className="border-b border-[#cfe8f7] px-6 py-6 text-center">
 
           {/* Profile Image - Display Only */}
           <div className="mx-auto h-24 w-24">
@@ -96,11 +96,11 @@ function Sidebar({
         </nav>
 
         {/* Logout */}
-        <div className="border-t border-[#d9e8f5] p-4">
+        <div className="border-t border-[#cfe8f7] p-4">
           <button
             type="button"
             onClick={handleLogout}
-            className="flex w-full items-center gap-3 rounded-lg px-4 py-3 text-left font-medium text-red-600 transition hover:bg-red-50"
+            className="flex w-full items-center gap-1 rounded-lg px-4 py-3 text-left font-medium text-red-600 transition hover:bg-red-50"
           >
             <FaRightFromBracket className="text-[17px]" />
             <span>Logout</span>
